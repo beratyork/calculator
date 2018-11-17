@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
-/*body {
+body {
   -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-}*/
+}
+
+#calc-parent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .calc-btn {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
