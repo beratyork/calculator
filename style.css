@@ -7,6 +7,10 @@ body {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
+  background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 #calc-parent {
